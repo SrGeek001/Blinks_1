@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BLACKPINK - version Vitor</title>
+
+  <!-- 파비콘 -->
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon"> 
+
+  <!-- 초기화 -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <!-- 기본, 공통 서식 -->
+  <link rel="stylesheet" href="./css/base.css">
+  <!-- 레이아웃 서식 -->
+  <link rel="stylesheet" href="./css/layout.css">
+  <!-- 메인 서식 -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- 스와이퍼 슬라이드 서식 -->
+  <link rel="stylesheet" href="./css/swiper.css">
+
+  <!--  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+</head>
+
+<body>
+  <!-- 헤더 -->
+  <header>
+    <div class="layout d-flex">
+      <h1>
+        <a href="index.html" title="메인페이지 바로가기">
+          <img src="./images/logo_wh.png" alt="상단로고">
+        </a>
+      </h1>
+      
+      <nav>
+        <ul class="gnb d-flex">
+          <li><a href="#profile" title="PROFILE">PERFIL</a></li>
+          <li><a href="#activities" title="ACTIVITIES">ATIVIDADES</a></li>
+          <li><a href="#album" title="ALBUM">ALBUM</a></li>
+          <li><a href="#gallery" title="GALLERY">GALERIA</a></li>
+        </ul>
+      </nav>
+
+      <div class="lang">
+        <div class="selected">
+          <span>BR</span><i class="material-icons">arrow_drop_down</i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 메인 -->
+  <main>
+    <!-- INTRO -->
+    <section id="intro" class="section">
+      <h2 class="hidden">블랙핑크 인트로 영상</h2>
+      <div class="swiper introSlide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <video autoplay muted playsinline loop>
+            <source src="./video/BLACKPINK_video01.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">
+              <span>2023.10</span>
+              <h3>YOU & ME</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <video autoplay muted playsinline loop>
+            <source src="./video/BLACKPINK_video02.webm" type="video/webm">
+            </video>
+            <div class="video-title">
+              <span>2023.03</span>
+              <h3>FLOWER</h3>
+            </div>
+          </div> 
+          <div class="swiper-slide">
+            <video autoplay muted playsinline loop>
+            <source src="./video/BLACKPINK_video03.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">
+              <span>2022.09</span>
+              <h3>SHUT DOWN</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <video autoplay muted playsinline loop>
+            <source src="./video/BLACKPINK_video04.webm" type="video/webm">
+            </video>
+            <div class="video-title">
+              <span>2022.08</span>
+              <h3>PINK VENOM</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 페이지 번호-->
+      <div class="custom-fraction">
+        <span class="current">01</span> / <span class="all">04</span>
+      </div>
+
+      <!-- 페이지 버튼 -->
+      <div class="swiper-button-prev arrow-btn">
+        <img src="./images/arrow_left_01.png" alt="">
+        <span>anterior</span>
+      </div>
+      <div class="swiper-button-next arrow-btn">
+        <span>proximo </span>
+        <img src="./images/arrow_right_01.png" alt="">
+      </div>
+      
+      <!-- 스크롤다운 표시 -->
+      <div class="scroll-mark">
+        <span>scroll down</span>
+        <img src="./images/scroll.png" alt="">
+      </div>
+    </section>
+    
+    <!-- ABOUT -->
+    <section id="profile" class="section">
+      <h2 class="hidden">블랙핑크 소개</h2>
+      <article>
+        <h3 class="btn-shine">BLACKPINK</h3>
+        <span>IN YOUR AREA</span>
+        <!-- Layout com imagem original à esquerda e texto à direita -->
+        <div class="about-content" style="display: flex; justify-content: center; align-items: center;">
+          <div class="about-image" style="flex: 1; text-align: right; padding-right: 10px;">
+            <img src="./images/actvities_2024.jpg" alt="Imagem da BLACKPINK" style="max-width: 100%;">
+          </div>
+          <div class="about-text" style="flex: 1; text-align: left; padding-left: 10px;">
+            <p style="line-height: 1.6; font-size: 16px;">
+              Como um grande fã da BLACKPINK, sempre admirei esse grupo incrível de kpop. Recentemente, descobri um projeto fascinante de Kim Siwoo que me inspirou a criar um site utilizando JavaScript, visando treinar minhas habilidades de programação.
+            </p>
+            <p style="line-height: 1.6; font-size: 16px;">
+              O que mais me atraiu no projeto de Kim Siwoo foi a elegância de seu design, algo que quis replicar com meu estilo. A ideia central era criar uma plataforma leve e intuitiva, que refletisse a energia e o estilo único da BLACKPINK.
+            </p>
+            <p style="line-height: 1.6; font-size: 16px;">
+              Eu gosto muito de ouvir as músicas da BLACKPINK nos momentos de lazer, e isso me motiva a ver as coisas por outros ângulos, pelo motivo de saber que existem outras realidades e culturas por esse mundo. Cada detalhe do site foi pensado para oferecer uma experiência agradável aos visitantes, permitindo que naveguem facilmente e apreciem tanto o conteúdo quanto a estética.
+            </p>
+            <p style="line-height: 1.6; font-size: 16px;">
+              Neste site, você encontrará uma interface limpa e moderna, inspirada pela banda que tanto admiro. Espero que, ao visitar, outros fãs também sintam a mesma inspiração e entusiasmo que a BLACKPINK. Este projeto é uma junção das minhas duas coisas que gosto: a música e a tecnologia.
+            </p>
+            <p style="line-height: 1.6; font-size: 16px; color:#FF6EC7;">
+              Vitor Duarte - O Ti que te impressiona!
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+    
+    
+      
+
+    <!-- PROFILE -->
+    <section id="profile" class="section">
+      <h2 class="hidden">프로필</h2>
+      <div class="layout">
+        <div class="index">
+          <h3>01 PROFILE</h3>
+          <span class="line">&nbsp;</span>
+          <span>YG - BLACKPINK</span>
+        </div>
+        <article class="inner-box">
+          <h3 class="hidden">멤버 프로필</h3>
+          <ul class="profile-list">
+            <li>
+              <a href="javascript:" title="JENNIE" class="list-click">JENNIE</a>
+              <div class="profile-cont fadeIn">
+                <div class="img-box">
+                  <div class="circle1"></div>
+                  <img src="./images/gallery_8.jpg" alt="제니">
+                  <div class="circle2"></div>
+                </div>
+                <div class="profile-txt">
+                  <span>&nbsp;</span>
+                  <div class="profile-name">
+                    <h4>JENNIE</h4>
+                    <span>OF BLACKPINK</span>
+                  </div>
+                  <ul>
+                    <li>Nome: Jenny</li>
+                    <li>Data de nascimento: 16 de janeiro de 1996</li>
+                    <li>Nacionalidade: Coreia do Sul</li>
+                    <li>Papel : Vocal principal, Vocal principal</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="javascript:" title="LISA">LISA</a>
+              <div class="profile-cont">
+                <div class="img-box">
+                  <div class="circle1"></div>
+                  <img src="./images/gallery_13.jpg" alt="리사">
+                  <div class="circle2"></div>
+                </div>
+                <div class="profile-txt">
+                  <span>&nbsp;</span>
+                  <div class="profile-name">
+                    <h4>LISA</h4>
+                    <span>OF BLACKPINK</span>
+                  </div>
+                  <ul>
+                    <li>Nome: Lisa</li>
+                    <li>Data de nascimento: 27 de março de 1997</li>
+                    <li>Nacionalidade: Tailandesa</li>
+                    <li>Papel : Dançarina Principal, Animadora Principal</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li><a href="javascript:" title="ROSE">ROSE</a>
+              <div class="profile-cont">
+                <div class="img-box">
+                  <div class="circle1"></div>
+                  <img src="./images/gallery_3.jpg" alt="로제">
+                  <div class="circle2"></div>
+                </div>
+                <div class="profile-txt">
+                  <span>&nbsp;</span>
+                  <div class="profile-name">
+                    <h4>ROSE</h4>
+                    <span>OF BLACKPINK</span>
+                  </div>
+                  <ul>
+                    <li>Nome: Rose</li>
+                    <li>Data de nascimento: 11 de fevereiro de 1997</li>
+                    <li>Nacionalidade: Australiana</li>
+                    <li>Papel : Vocalista Principal, Dançarina Principal </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li><a href="javascript:" title="JISOO">JISOO</a>
+              <div class="profile-cont">
+                <div class="img-box">
+                  <div class="circle1"></div>
+                  <img src="./images/gallery_21.jpg" alt="지수">
+                  <div class="circle2"></div>
+                </div>
+                <div class="profile-txt">
+                  <span>&nbsp;</span>
+                  <div class="profile-name">
+                    <h4>JISOO</h4>
+                    <span>OF BLACKPINK</span>
+                  </div>
+                  <ul>
+                    <li>Nome: Jisoo </li>
+                    <li>Data de nascimento: 13 de janeiro de 1995</li>
+                    <li>Nacionalidade : Coreia do Sul</li>
+                    <li>Papel : Vocal principal</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+    
+    <!-- ACTIVITIES-->
+    <section id="activities" class="section">
+      <h2 class="hidden">활동이력</h2>
+      <div class="layout">
+        <div class="index">
+          <h3>02 ACTIVITIES</h3>
+          <span class="line">&nbsp;</span>
+          <span>YG - BLACKPINK</span>
+        </div>
+        <article class="inner-box d-flex">
+          <h3 class="hidden">활동이력</h3>
+          <!-- 타임라인 -->
+          <div class="timeline">
+            <div class="timeline-bar">
+              <div class="timeline-gage"></div>
+              <ol>
+                <li>&nbsp;</li>
+                <li class="time"><span class="mark markColor">&nbsp;</span><span>2024</span></li>
+                <li><img src="./images/crown_on.png" alt="블랙핑크 왕관"></li>
+              </ol>
+            </div>
+          </div>
+          <!-- Conteúdo -->
+          <div class="content-box">
+            <!-- 2024 -->
+            <div class="act-cont">
+              <h4>2024</h4>
+              <div class="act-desc">
+                <div>
+                  <h5>DISCOGRAPHY</h5>
+                  <ul>
+                    <li>Álbuns de Estúdio: "The Album" (2020)</li>
+                    <li>EPs (Extended Plays): "Square Up" (2018), "Kill This Love" (2019)</li>
+                    <li>Álbuns ao Vivo: "BLACKPINK 2018 Tour 'In Your Area' Seoul" (2019), "BLACKPINK 2018 Tour 'In Your Area' Japan" (2019)</li>
+                    <li>Singles: "DDU-DU DDU-DU" (2018), "Kill This Love" (2019), "How You Like That" (2020)</li>
+                    <li>Colaborações: "Kiss and Make Up" com Dua Lipa (2018)</li>
+                  </ul>
+                  <h5>CONCERTS</h5>
+                  <ul>
+                    <li>BLACKPINK World Tour 'In Your Area' (2018-2019)</li>
+                    <li>BLACKPINK 2019-2020 World Tour (cancelada devido à pandemia)</li>
+                    <li>BLACKPINK 2022 World Tour 'Born Pink' (2022)</li>
+    
+                  <h5>BROADCASTS</h5>
+                  <ul>
+                    <li>BLACKPINK House (reality show)</li>
+                    <li>BLACKPINK Premium Debut Showcase (2016)</li>
+                    <li>BLACKPINK Live: The Show (2020)</li>
+                    <li>BLACKPINK 2022 'Born Pink' Concert (transmissão ao vivo)</li>
+                  </ul> 
+                </div>
+                <div class="act-img">
+                  <img src="./images/activities_2023.png" alt="BLACKPINK">
+                  <img src="./images/activities_bg.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    
+    
+    <!-- ALBUM -->
+    <section id="album" class="section">
+      <h2 class="hidden">앨범</h2>
+      <div class="layout">
+        <div class="index">
+          <h3>03 ALBUM</h3>
+          <span class="line">&nbsp;</span>
+          <span>YG - BLACKPINK</span>
+        </div>
+        <article class="inner-box">
+          <h3 class="hidden">앨범 소개</h3>
+          <!-- 앨범 목록 >> 최신순으로 등록 -->
+          <div class="album-list">
+            <div class="swiper albumSlide">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <img src="./images/album15.jpg" alt="YOU & ME">
+                  <img src="./images/cd.png" alt="cd앨범" class="album-cd">
+                </li>
+                <li class="swiper-slide">
+                  <img src="./images/album14.jpg" alt="ME">
+                  <img src="./images/cd.png" alt="cd앨범" class="album-cd">
+                </li>
+                <li class="swiper-slide">
+                  <img src="./images/album13.jpg" alt="BORN PINK">
+                  <img src="./images/cd.png" alt="cd앨범" class="album-cd">
+                </li>
+                <li class="swiper-slide">
+                  <img src="./images/album12.jpg" alt="Pink Venom">
+                  <img src="./images/cd.png" alt="cd앨범" class="album-cd">
+                </li>
+                <li class="swiper-slide">
+                  <img src="./images/album11.jpg" alt="LALISA">
+                  <img src="./images/cd.png" alt="cd앨범" class="album-cd">
+                </li>
+                <li class="swiper-slide">
+                  <img src="./images/album10.jpg" alt="-R-">
+                  <img src="./images/cd.png" alt="cd앨범" class="album-cd">
+                </li>
+                <li class="swiper-slide">
+                  <img src="./images/album09.jpg" alt="THE ALBUM">
+                  <img src="./images/cd.png" alt="cd앨범" class="album-cd">
+                </li>
+                <li class="swiper-slide">
+                  <img src="./images/album08.jpg" alt="ICE CREAM">
+                  <img src="./images/cd.png" alt="cd앨범" class="album-cd">
+                </li>
+                <li class="swiper-slide">
+                  <img src="./images/album07.jpg" alt="How You Like That">
+                  <img src="./images/cd.png" alt="cd앨범" class="album-cd">
+                </li>
+                <li class="swiper-slide">
+                  <img src="./images/album06.jpg" alt="KILL THIS LOVE">
+                  <img src="./images/cd.png" alt="cd앨범" class="album-cd">
+                </li>
+                <li class="swiper-slide">
+                  <img src="./images/album05.jpg" alt="SOLO">
+                  <img src="./images/cd.png" alt="cd앨범" class="album-cd">
+                </li>
+                <li class="swiper-slide">
+                  <img src="./images/album04.jpg" alt="SQUARE UP">
+                  <img src="./images/cd.png" alt="cd앨범" class="album-cd">
+                </li>
+                <li class="swiper-slide">
+                  <img src="./images/album03.jpg" alt="마지막처럼">
+                  <img src="./images/cd.png" alt="cd앨범" class="album-cd">
+                </li>
+                <li class="swiper-slide">
+                  <img src="./images/album02.jpg" alt="SQUARE TWO">
+                  <img src="./images/cd.png" alt="cd앨범" class="album-cd">
+                </li>
+                <li class="swiper-slide">
+                  <img src="./images/album01.jpg" alt="SQUARE ONE">
+                  <img src="./images/cd.png" alt="cd앨범" class="album-cd">
+                </li>
+              </ul>
+            </div>
+            <!-- 좌,우측 버튼 -->
+            <div class="arrow-prev"><img src="./images/arrow_left_02.png" alt="이전버튼"></div>
+            <div class="arrow-next"><img src="./images/arrow_right_02.png" alt="다음버튼"></div>
+          </div>
+
+          <!-- 앨범 내용 >> 최신순으로 등록 -->
+          <div class="album-cont">
+            <!-- 15 -->
+            <div class="album-box d-flex">
+              <img src="./images/album15.jpg" alt="JENNIE Special Single [ You & Me ]">
+              <div class="album-txt">
+                <h4>JENNIE Special Single [ You & Me ]</h4>
+                <span>2023.10.06</span>
+                <ul class="d-flex">
+                  <li><a href="#" title="음원 듣기"><i class="material-icons">music_note</i></a></li>
+                  <li><a href="#" title="뮤직비디오 보기">MV</a></li>
+                  <li><a href="#" title="앨범 구매하기"><i class="material-icons">shopping_bag</i></a></li>
+                </ul>
+              </div>
+              <ol>
+                <li><span>1</span>You & Me</li>
+                <li><span>2</span>You & Me(Coachella Ver.)</li>
+              </ol>
+              <p>
+                A canção a solo inédita de JENNIE, “You & Me”, será lançada como álbum completo.
+                O single especial de JENNIE, “You & Me”, é um presente especial da artista para os fãs que apoiaram a BORN PINK WORLD TOUR dos BLACKPINK durante o ano passado, e contará com uma capa de álbum e conteúdo especial em colaboração com Naoko Takeuchi, conhecida pelo seu trabalho em Sailor Moon.
+                O single especial apresentará duas versões da canção, incluindo a versão original lançada na digressão e a versão remisturada que estreou no palco do Coachella Valley Music and Arts Festival, em abril, e que voltará a cativar os ouvintes de todo o mundo.
+
+              </p>
+            </div>
+            <!-- 14 -->
+            <div class="album-box d-flex">
+              <img src="./images/album14.jpg" alt="ME">
+              <div class="album-txt">
+                <h4>ME</h4>
+                <span>2023.03.31</span>
+                <ul class="d-flex">
+                  <li><a href="#" title="음원 듣기"><i class="material-icons">music_note</i></a></li>
+                  <li><a href="#" title="뮤직비디오 보기">MV</a></li>
+                  <li><a href="#" title="앨범 구매하기"><i class="material-icons">shopping_bag</i></a></li>
+                </ul>
+              </div>
+              <ol>
+                <li><span>1</span>꽃</li>
+                <li><span>2</span>All Eyes On Me</li>
+              </ol>
+              <p>
+                Nesta primavera, Jisoo regressará finalmente com o seu primeiro álbum a solo. Os fãs de música de todo o mundo têm estado à espera deste álbum, que é a parte final do projeto a solo das BLACKPINK, e é muito aguardado.
+                O álbum chama-se “ME”, que reflecte totalmente a confiança de Jisoo como artista a solo. Espera-se que conquiste os corações de todos com um novo charme que é diferente do que ela mostrou até agora. 
+                O álbum a solo é composto por duas faixas, a faixa-título “FLOWER” e “All Eyes On Me”. Lideradas por TEDDY, que está com as BLACKPINK desde a sua estreia, Vince, KUSH, VVN, 24 e R.TEE contribuíram para o álbum. 
+                Estamos ansiosos para ver que novas capacidades e possibilidades Jisoo, uma 'all-rounder' que se estabeleceu como uma artista global, irá mostrar com este álbum.
+              </p>
+            </div>
+            <!-- 13 -->   
+            <div class="album-box d-flex">
+              <img src="./images/album13.jpg" alt="BORN PINK">
+              <div class="album-txt">
+                <h4>BORN PINK</h4>
+                <span>2022.09.16</span>
+                <ul class="d-flex">
+                  <li><a href="#" title="음원 듣기"><i class="material-icons">music_note</i></a></li>
+                  <li><a href="#" title="뮤직비디오 보기">MV</a></li>
+                  <li><a href="#" title="앨범 구매하기"><i class="material-icons">shopping_bag</i></a></li>
+                </ul>
+              </div>
+              <ol>
+                <li><span>1</span>Pink Venom</li>
+                <li><span>2</span>Shut Down</li>
+                <li><span>3</span>Typa Girl</li>
+                <li><span>4</span>Yeah Yeah Yeah</li>
+                <li><span>5</span>Hard to Love</li>
+                <li><span>6</span>The Happiest Girl</li>
+                <li><span>7</span>Tally</li>
+                <li><span>8</span>Ready For Love</li>
+              </ol>
+              <p>   BLACKPINK, o melhor grupo feminino do mundo, anunciou o seu segundo álbum de estúdio, “BORN PINK”.
+                As BLACKPINK, que viciaram os ouvintes de todo o mundo com a canção de pré-lançamento “Pink Venom” em agosto, deverão voltar a encantar o mundo com o seu segundo álbum de estúdio “BORN PINK”.
+                [BORN PINK é uma declaração confiante da presença única das BLACKPINK desde o seu início e contém oito faixas únicas com o som intenso das BLACKPINK, incluindo a faixa-título “Shut Down”. 
+                Desde canções de pré-lançamento a álbuns completos e digressões mundiais. Será interessante ver que tipo de novos registos as BLACKPINK irão criar através de um projeto de tão grande escala.
+              </p>
+            </div>
+            <!-- 12 -->
+            <div class="album-box d-flex">
+              <img src="./images/album12.jpg" alt="Pink Venom">
+              <div class="album-txt">
+                <h4>Pink Venom</h4>
+                <span>2022.08.19</span>
+                <ul class="d-flex">
+                  <li><a href="#" title="음원 듣기"><i class="material-icons">music_note</i></a></li>
+                  <li><a href="#" title="뮤직비디오 보기">MV</a></li>
+                  <li><a href="#" title="앨범 구매하기"><i class="material-icons">shopping_bag</i></a></li>
+                </ul>
+              </div>
+              <ol>
+                <li><span>1</span>Pink Venom</li>
+              </ol>
+              <p>
+                '“Pink Venom” é uma canção de hip-hop que mostra o forte carisma das BLACKPINK. O som instrumental tradicional coreano combinado com uma batida forte chama imediatamente a atenção desde a introdução. O rap poderoso e os vocais letais da canção são construídos em cima disso, e cada uma das quatro integrantes do BLACKPINK maximiza seu apelo.
+                O beat drop minimalista que se segue é onde a melodia viciante de “Pink Venom” realmente chega ao coração. Expande instantaneamente o arco emocional da canção e leva o ouvinte ao clímax musical, deixando-o num estado de êxtase.
+                O contraste escuro e bonito entre 'Pink' e 'Venom' é hipnotizante. A letra, que fala sobre subjugar o adversário com facilidade, está de acordo com a própria identidade das BLACKPINK e envia uma mensagem clara.
+                'Pink Venom' é mais do que apenas um prazer auditivo para os fãs de música de todo o mundo que têm estado à espera das BLACKPINK.
+              </p>
+            </div>
+            <!-- 11 -->
+            <div class="album-box d-flex">
+              <img src="./images/album11.jpg" alt="LALISA">
+              <div class="album-txt">
+                <h4>LALISA</h4>
+                <span>2021.09.10</span>
+                <ul class="d-flex">
+                  <li><a href="#" title="음원 듣기"><i class="material-icons">music_note</i></a></li>
+                  <li><a href="https://www.youtube.com/watch?v=awkkyBH2zEo" title="뮤직비디오 보기" target="_blank">MV</a></li>
+                  <li><a href="https://ygselect.com/product/lisa-first-single-album-lalisa-kit-album/6370/category/23/display/1/" title="앨범 구매하기" target="_blank"><i class="material-icons">shopping_bag</i></a></li>
+                </ul>
+              </div>
+              <ol>
+                <li><span>1</span>LALISA</li>
+                <li><span>2</span>MONEY</li>
+              </ol>
+              <p>
+                O primeiro trabalho a solo de Lisa. “LALISA” é o resultado do trabalho de Lisa, lançado sob o seu próprio nome, e mostra a sua confiança. Em particular, o nome do álbum é mais significativo porque ela ama-se a si própria e está orgulhosa de si mesma ao apresentar o seu nome verdadeiro.
+                O álbum single é composto por duas faixas, 'LALISA' e 'MONEY', e é composto pela faixa-título com o mesmo nome, e é uma colaboração entre o mega hit maker TEDDY, Bekuh BOOM, 24, Vince e R.Tee, que têm trabalhado juntos desde a sua estreia.
+                Não só a música é baseada no hip-hop e viciante, como também o rap dinâmico de Lisa, que é o seu forte, a faz destacar-se como artista a solo.
+                Como ícone da cultura pop, chegou a altura de ela aceitar novos desafios e mostrar as suas capacidades.
+            </div>
+            <!-- 10 -->
+            <div class="album-box d-flex">
+              <img src="./images/album10.jpg" alt="-R-">
+              <div class="album-txt">
+                <h4>-R-</h4>
+                <span>2021.03.12</span>
+                <ul class="d-flex">
+                  <li><a href="#" title="음원 듣기" target="_blank"><i class="material-icons">music_note</i></a></li>
+                  <li><a href="https://www.youtube.com/watch?v=CKZvWhCqx1s" title="뮤직비디오 보기" target="_blank">MV</a></li>
+                  <li><a href="https://ygselect.com/product/ros%C3%A9-first-single-album-r/6097/" title="앨범 구매하기" target="_blank"><i class="material-icons">shopping_bag</i></a></li>
+                </ul>
+              </div>
+              <ol>
+                <li><span>1</span>On The Ground</li>
+                <li><span>2</span>Gone</li>
+              </ol>
+              <p>
+                O álbum de estreia a solo de Rose intitula-se -R-, depois da primeira letra do seu nome, significando um novo começo como artista a solo.
+                O som misterioso e cheio de suspense, juntamente com os vocais únicos de Rose que fluem sem esforço, cria uma sensação de entusiasmo diferente de tudo o que já se sentiu antes. A letra, “I've always been looking for higher ground, but the real value is inside me”, lembra-nos o que temos estado a perder nesta era.
+                Um lado mais maduro e cinematográfico da voz de Rose, doce e delicado, mas ao mesmo tempo poderoso e selvagem.컬, 그리고 울림이 있는 노래를 통해 로제가 자신의 첫 싱글 앨범에서 전하려는 메시지를 함께 나눌 수 있길 기대한다.
+              </p>
+            </div>
+            <!-- 9 -->
+            <div class="album-box d-flex">
+              <img src="./images/album09.jpg" alt="THE ALBUM">
+              <div class="album-txt">
+                <h4>THE ALBUM</h4>
+                <span>2020.10.02</span>
+                <ul class="d-flex">
+                  <li><a href="#" title="음원 듣기"><i class="material-icons">music_note</i></a></li>
+                  <li><a href="#" title="뮤직비디오 보기">MV</a></li>
+                  <li><a href="#" title="앨범 구매하기"><i class="material-icons">shopping_bag</i></a></li>
+                </ul>
+              </div>
+              <ol>
+                <li><span>1</span>How You Like That</li>
+                <li><span>2</span>Ice Cream (with Selena Gomez)</li>
+                <li><span>3</span>Pretty Savage</li>
+                <li><span>4</span>Bet You Wanna (Feat. Cardi B)</li>
+                <li><span>5</span>Lovesick Girls</li>
+                <li><span>6</span>Crazy Over You</li>
+                <li><span>7</span>Love To Hate Me</li>
+                <li><span>8</span>You Never Know</li>
+              </ol>
+              <p>
+                'Lovesick Girls', a faixa que dá título ao primeiro álbum completo das BLACKPINK, 'THE ALBUM', conduz o clima geral da canção com uma melodia sofisticada sobre um som de guitarra inspirado no country, e os vocais poderosos das BLACKPINK são adicionados ao som retro para elevar a canção. A canção é caracterizada por letras que fazem a pergunta final sobre o porquê de os humanos encontrarem outro amor apesar de estarem magoados e sofrendo no amor, e pela primeira vez numa canção das BLACKPINK, as membros Jisoo e Jenny contribuíram cada uma para a letra e composição da canção, aumentando a expetativa dos fãs.
+                Para além de “Lovesick Girls”, o álbum também inclui uma variedade de outras canções, desde o carismático som hip-hop de “How You Like That”, que provou ser um êxito mundial, até à melodia cativante e animada de “Ice Cream”, uma colaboração com a estrela pop Selena Gomez.
+              </p>
+            </div>
+            <!-- 8 -->
+            <div class="album-box d-flex">
+              <img src="./images/album08.jpg" alt="Ice Cream">
+              <div class="album-txt">
+                <h4>Ice Cream (with Selena Gomez)</h4>
+                <span>2020.08.28</span>
+                <ul class="d-flex">
+                  <li><a href="#" title="음원 듣기"><i class="material-icons">music_note</i></a></li>
+                  <li><a href="#" title="뮤직비디오 보기">MV</a></li>
+                  <li><a href="#" title="앨범 구매하기"><i class="material-icons">shopping_bag</i></a></li>
+                </ul>
+              </div>
+              <ol>
+                <li><span>1</span>Ice Cream (with Selena Gomez)</li>
+              </ol>
+              <p>
+                BLACKPINK estreou-se em 2016 com “SQUARE ONE” e cativou imediatamente o público, marcando o nascimento de um novo grupo importante. Desde então, o grupo tornou-se um artista global com o lançamento dos mini-álbuns “SQUARE UP” e “Kill This Love” e confirmou a sua popularidade global através de uma digressão mundial de sucesso, tendo também provado o seu poder ao atuar no palco do maior festival de música dos Estados Unidos, “Coachella”. Em junho, provou a sua presença global com o carismático som hip-hop de “How You Like That” e prepara-se para bater o seu próprio recorde com “Ice Cream”, outra colaboração com Selena Gomez, antes de lançar o seu primeiro álbum de estúdio a 2 de outubro.
+              </p>
+            </div>
+            <!-- 7 -->
+            <div class="album-box d-flex">
+              <img src="./images/album07.jpg" alt="How You Like That">
+              <div class="album-txt">
+                <h4>How You Like That</h4>
+                <span>2020.06.26</span>
+                <ul class="d-flex">
+                  <li><a href="#" title="음원 듣기"><i class="material-icons">music_note</i></a></li>
+                  <li><a href="#" title="뮤직비디오 보기">MV</a></li>
+                  <li><a href="#" title="앨범 구매하기"><i class="material-icons">shopping_bag</i></a></li>
+                </ul>
+              </div>
+              <ol>
+                <li><span>1</span>How You Like That</li>
+              </ol>
+              <p>
+                2016년 ‘SQUARE ONE’으로 데뷔한 블랙핑크 Os BLACKPINK estrearam-se com “SQUARE ONE” em 2016, cativando o público e anunciando o nascimento de um novo grupo importante. Desde então, os BLACKPINK tornaram-se artistas globais com o lançamento dos mini-álbuns “SQUARE UP” e “Kill This Love”, confirmando a sua popularidade global com uma digressão mundial bem-sucedida e provando o seu poder ao atuarem no palco do maior festival de música dos Estados Unidos, “Coachella”. Este verão, as BLACKPINK regressam com o carismático som hip-hop de “How You Like That”, após um ano de ausência, e o grupo está pronto para quebrar os seus próprios recordes mais uma vez com um apelo ainda mais forte do que antes.는 대중을 사로잡으며 대형 신인 그룹의 탄생을 예고했다. 그 이후 미니앨범 ‘SQUARE UP’과 ‘Kill This Love’를 발표하며 글로벌 아티스트로 성장한 블랙핑크는, 성공적인 월드투어를 마치며 세계적인 인기를 확인, 또 미국 최대 음악 페스티벌 ‘코첼라’ 무대에 서면서 그 위력을 증명했다. 올여름, 약 1년 만에 카리스마 넘치는 힙합 사운드의 ‘How You Like That’으로 돌아온 블랙핑크는 이전보다 더욱 강력해진 매력으로 다시 한번 자체 기록 경신에 나선다.
+              </p>
+            </div>
+            <!-- 6 -->
+            <div class="album-box d-flex">
+              <img src="./images/album06.jpg" alt="Kiil This Love">
+              <div class="album-txt">
+                <h4>Kil This Love</h4>
+                <span>2019.04.05</span>
+                <ul class="d-flex">
+                  <li><a href="#" title="음원 듣기"><i class="material-icons">music_note</i></a></li>
+                  <li><a href="#" title="뮤직비디오 보기">MV</a></li>
+                  <li><a href="#" title="앨범 구매하기"><i class="material-icons">shopping_bag</i></a></li>
+                </ul>
+              </div>
+              <ol>
+                <li><span>1</span>Kill This Love</li>
+                <li><span>2</span>Don't Know What To Do</li>
+                <li><span>3</span>Kick It</li>
+                <li><span>4</span>아니길 (Hope Not)</li>
+                <li><span>5</span>뚜두뚜두 (DDU-DU DDU-DU)</li>
+              </ol>
+              <p>
+                As BLACKPINK, que bateram vários recordes desde a sua estreia, estão de volta com a faixa-título 'Kill This Love' e um álbum EP com o mesmo nome. Com o seu rap e vocais carismáticos, bem como uma variedade de canções melancólicas e emotivas, o espetro musical das BLACKPINK foi enriquecido com este álbum.
+                A faixa-título, “Kill This Love”, é dominada por um forte som de metais e bateria maciça, e o rap carismático e os vocais em cima dela nos lembram o que BLACKPINK só pode fazer.
+                </p>
+            </div>
+            <!-- 5 -->
+            <div class="album-box d-flex">
+              <img src="./images/album05.jpg" alt="SOLO">
+              <div class="album-txt">
+                <h4>SOLO</h4>
+                <span>2018.11.12</span>
+                <ul class="d-flex">
+                  <li><a href="#" title="음원 듣기"><i class="material-icons">music_note</i></a></li>
+                  <li><a href="#" title="뮤직비디오 보기">MV</a></li>
+                  <li><a href="#" title="앨범 구매하기"><i class="material-icons">shopping_bag</i></a></li>
+                </ul>
+              </div>
+              <ol>
+                <li><span>1</span>SOLO</li>
+              </ol>
+              <p>
+                O primeiro single do grupo feminino BLACKPINK, representante da G, “SOLO”, é uma vibração diferente da música que ela mostrou como BLACKPINK. Com a sua música e atuação mais maduras e delicadas, e o seu charme colorido, as primeiras asas da Jenny como artista “a solo”, aguardamos com expetativa os seus desafios e visões.
+              </p>
+            </div>
+            <!-- 4 -->
+            <div class="album-box d-flex">
+              <img src="./images/album04.jpg" alt="SQUARE UP">
+              <div class="album-txt">
+                <h4>SQUARE UP</h4>
+                <span>2018.06.15</span>
+                <ul class="d-flex">
+                  <li><a href="#" title="음원 듣기"><i class="material-icons">music_note</i></a></li>
+                  <li><a href="#" title="뮤직비디오 보기">MV</a></li>
+                  <li><a href="#" title="앨범 구매하기"><i class="material-icons">shopping_bag</i></a></li>
+                </ul>
+              </div>
+              <ol>
+                <li><span>1</span>뚜두뚜두 (DDU-DU DDU-DU)</li>
+                <li><span>2</span>Forever Young</li>
+                <li><span>3</span>Really</li>
+                <li><span>4</span>See U Later</li>
+              </ol>
+              <p>
+                BLACKPINK, o girl group representante da YG, que estreou a 8 de agosto de 2016, conquistou grande atenção pelo seu desempenho recorde com o seu som distinto e vários encantos através das séries 'SQUARE ONE', 'SQUARE TWO' e 'Like the Last Time', está de volta com o seu altamente antecipado primeiro mini-álbum 'SQUARE UP' em 2018. 
+                “SQUARE UP” é uma continuação da série ‘SQUARE’ das BLACKPINK, que está em curso desde o seu debut, e é uma continuação do seu álbum de estreia ‘SQUARE ONE’ e do segundo álbum ‘SQUARE TWO’. O título do álbum, “SQUARE UP”, que significa “vamos ficar juntos” e “vamos lutar”, reflete a música e os conceitos mais maduros e fortes do BLACKPINK, e transmite a mensagem de “vamos enfrentar o mundo com confiança”.
+              </p>
+            </div>
+            <!-- 3 -->
+            <div class="album-box d-flex">
+              <img src="./images/album03.jpg" alt="마지막처럼">
+              <div class="album-txt">
+                <h4>마지막처럼 (AS IF IT'S YOUR LAST)</h4>
+                <span>2017.06.22</span>
+                <ul class="d-flex">
+                  <li><a href="#" title="음원 듣기"><i class="material-icons">music_note</i></a></li>
+                  <li><a href="#" title="뮤직비디오 보기">MV</a></li>
+                  <li><a href="#" title="앨범 구매하기"><i class="material-icons">shopping_bag</i></a></li>
+                </ul>
+              </div>
+              <ol>
+                <li><span>1</span>마지막처럼 (AS IF IT'S YOUR LAST)</li>
+              </ol>
+              <p>
+                Com uma vibração brilhante, alegre e de verão, que está muito longe da sensibilidade da música anterior das BLACKPINK, este single é a sua faixa mais rápida e animada até à data, sugerindo o que está para vir.
+                “Like the Last Time” é uma faixa de dança com um sintetizador contagiante que nos agarra desde o início. O ritmo 4/4 mistura elementos de mombahton, reggae, house e outros géneros, com um arranjo de baixo rítmico e uma linha de sintetizador limpa que acompanha a melodia contrastante do refrão, e as melodias coloridas da fonte sonora são usadas nos sítios certos.
+                Como o título sugere, a nova canção é uma canção romântica sobre amar duramente e com toda a sua força como se este fosse o seu “último” amor, e é uma canção que expressa a individualidade e os pontos fortes de cada membro do BLACKPINK de uma forma sólida.
+              </p>
+            </div>
+            <!-- 2 -->
+            <div class="album-box d-flex">
+              <img src="./images/album02.jpg" alt="SQUARE TWO">
+              <div class="album-txt">
+                <h4>SQUARE TWO</h4>
+                <span>2016.11.01</span>
+                <ul class="d-flex">
+                  <li><a href="#" title="음원 듣기"><i class="material-icons">music_note</i></a></li>
+                  <li><a href="#" title="뮤직비디오 보기">MV</a></li>
+                  <li><a href="#" title="앨범 구매하기"><i class="material-icons">shopping_bag</i></a></li>
+                </ul>
+              </div>
+              <ol>
+                <li><span>1</span>불장난</li>
+                <li><span>2</span>STAY</li>
+                <li><span>3</span>휘파람 (acoustic Ver.)</li>
+              </ol>
+              <p>
+                Depois de criarem uma enorme sensação não só na Coreia, mas também em todo o mundo, chegando ao topo de várias tabelas e causando uma forte impressão no público com o seu impacto incaraterístico, estão de volta com uma nova canção que irá exceder as expectativas mais uma vez. 
+                Com uma melodia calma que é perfeita para o outono, as emoções das raparigas são cativantes com outro encanto. O seu passo de [SQUARE ONE] para [SQUARE TWO] vai certamente captar a atenção de todos mais uma vez.
+              </p>
+            </div>
+            <!-- 1 -->
+            <div class="album-box d-flex">
+              <img src="./images/album01.jpg" alt="SQUARE ONE">
+              <div class="album-txt">
+                <h4>SQUARE ONE</h4>
+                <span>2016.08.08</span>
+                <ul class="d-flex">
+                  <li><a href="#" title="음원 듣기"><i class="material-icons">music_note</i></a></li>
+                  <li><a href="#" title="뮤직비디오 보기">MV</a></li>
+                  <li><a href="#" title="앨범 구매하기"><i class="material-icons">shopping_bag</i></a></li>
+                </ul>
+              </div>
+              <ol>
+                <li><span>1</span>휘파람 (WHISTLE)</li>
+                <li><span>2</span>붐바야 (BOOMBAYAH)</li>
+              </ol>
+              <p>
+                BLACKPINK é um grupo de raparigas novatas que foi criado através de treino intenso na YG, e foi reconhecido pelo seu talento através de longos períodos de prática e colaborações com artistas da YG. O seu álbum de estreia, “SQUARE ONE”, foi produzido pelo produtor de topo da YG, “TEDDY”, durante um período de dois anos, e a qualidade do álbum foi melhorada ao mais alto nível, dando ao grupo um som único e um charme diferente de outros grupos femininos. Com a sensibilidade BLACK de YG e o novo charme PINK, [SQUARE ONE] marcará o início de um novo grupo feminino que tem estado envolto em mistério.
+              </p>
+            </div>
+
+            <!-- 페이지 번호 -->
+            <div class="page-num">
+              <span class="first-page">01</span> / <span class="all-page"></span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section">
+      <h2 class="hidden">갤러리</h2>
+      <div class="layout">
+        <div class="index">
+          <h3>04 GALLERY</h3>
+          <span class="line">&nbsp;</span>
+          <span>YG - BLACKPINK</span>
+        </div>
+        <article class="inner-box">
+          <h4>BLACKPINK</h4>
+          <!-- 슬라이드 -->
+          <div class="swiper gallerySlide">
+            <div class="swiper-wrapper">
+              <!-- 1 -->
+              <div class="swiper-slide">
+                <div class="photo">
+                  <div class="v-stretch">
+                    <img src="./images/gallery_1.jpg" alt="제니">
+                  </div>
+                  <div class="h-stretch">
+                    <img src="./images/gallery_2.jpg" alt="지수">
+                  </div>
+                  <div>
+                    <img src="./images/gallery_3.jpg" alt="제니">
+                  </div>
+                  <div class="h-stretch">
+                    <img src="./images/gallery_4.jpg" alt="블랙핑크">
+                  </div>
+                  <div>
+                    <img src="./images/gallery_5.jpg" alt="지수">
+                  </div>
+                  <div class="big-stretch">
+                    <img src="./images/gallery_6.jpg" alt="리사">
+                  </div>
+                  <div>
+                    <img src="./images/gallery_22.jpg" alt="지수">
+                  </div>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="swiper-slide">
+                <div class="photo">
+                  <div class="v-stretch">
+                    <img src="./images/gallery_7.jpg" alt="블랙핑크">
+                  </div>
+                  <div>
+                    <img src="./images/gallery_8.jpg" alt="제니">
+                  </div>
+                  <div>
+                    <img src="./images/gallery_9.jpg" alt="리사">
+                  </div>
+                  <div class="big-stretch">
+                    <img src="./images/gallery_10.jpg" alt="로제">
+                  </div>
+                  <div>
+                    <img src="./images/gallery_11.jpg" alt="로제">
+                  </div>
+                  <div class="h-stretch">
+                    <img src="./images/gallery_12.jpg" alt="리사">
+                  </div>
+                  <div>
+                    <img src="./images/gallery_13.jpg" alt="로제">
+                  </div>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="swiper-slide">
+                <div class="photo">
+                  <div class="v-stretch">
+                    <img src="./images/gallery_14.jpg" alt="로제">
+                  </div>
+                  <div class="h-stretch">
+                    <img src="./images/gallery_15.jpg" alt="리사">
+                  </div>
+                  <div>
+                    <img src="./images/gallery_16.jpg" alt="로제">
+                  </div>
+                  <div>
+                    <img src="./images/gallery_17.jpg" alt="리사">
+                  </div>
+                  <div class="big-stretch">
+                    <img src="./images/gallery_18.jpg" alt="지수">
+                  </div>
+                  <div>
+                    <img src="./images/gallery_19.jpg" alt="지수">
+                  </div>
+                  <div>
+                    <img src="./images/gallery_20.jpg" alt="블랙핑크">
+                  </div>
+                  <div>
+                    <img src="./images/gallery_21.jpg" alt="블랙핑크">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    
+  <!-- 푸터 -->
+  <footer class="section">
+    <div class="layout">
+      <div class="footer-top d-flex">
+        
+        <div class="txt-box">
+          <p style="margin: 10px 0; font-size: 16px;"> Obrigado pela visita! Deixe seu like e compartilhe! Se tiver algum comentário ou dica, ficarei feliz em ler. </p> 
+          <p style="margin: 10px 0; font-size: 16px;"> As imagens da galeria foram baixadas diretamente das redes sociais das cantoras, e o site foi inspirado no projeto de Kim Siwoo! Um dia desses, pretendo fazer um site inspirado na TWICE, uma banda top que não perde em nada para as BLINKs! 😊 </p> 
+   
+          <h2>BLACKPINK</h2>
+          <h3>More about BLACKPINK</h3>
+          <ul class="sns-list d-flex">
+            <li>
+              <a href="https://weverse.io/blackpink/feed">
+                <img src="./images/fanclub-blink.png" alt="블링크">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/BLACKPINKOFFICIAL">
+                <img src="./images/youtube.png" alt="유튜브">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/BLACKPINKOFFICIAL/">
+                <img src="./images/instagram.png" alt="인스타그램">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/BLACKPINKOFFICIAL">
+                <img src="./images/facebook.png" alt="페이스북">
+              </a></li>
+            <li>
+              <a href="https://twitter.com/BLACKPINK">
+                <img src="./images/twitter.png" alt="트위터">
+              </a>
+            </li>
+            <li>
+              <a href="https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fwww.weibo.com%2Fygblackpinkofficial&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F115.0.0.0%20Safari%2F537.36&_rand=1691257055905&sudaref=">
+                <img src="./images/weibo.png" alt="웨이보">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.tiktok.com/@bp_tiktok">
+                <img src="./images/tiktok.png" alt="틱톡">
+              </a>
+            </li>
+          </ul>
+          <h3>GOODS SHOP</h3>
+          <a href="https://shop.blackpinkmusic.com" title="굿즈샵 바로가기">https://shop.blackpinkmusic.com</a>
+         <!-- <div class="yg-copyright">
+          <img src="./images/YG-family-logo.svg" alt="yg로고"> 
+          <h4>YG Entertainment의 모든 컨텐츠는 저작권의 보호를 받고 있습니다.<br>Copyright YG Entertainment All Rights Reserved.</h4>
+          </div> -->
+            
+        </div>
+      </div>
+
+      
+          <a href="#" title="top버튼" class="top-btn">
+            <span class="material-icons">arrow_upward</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SNS -->
+  <aside id="sns">
+    <span><img src="./images/sns_arrow.png" alt="sns보기">SNS</span>
+    <ul class="sns-list">
+      <li>
+        <a href="https://weverse.io/blackpink/feed" title="팬클럽 바로가기" target="_blank">
+          <img src="./images/fanclub-blink.png" alt="블링크">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/BLACKPINKOFFICIAL" title="유튜브 바로가기" target="_blank">
+          <img src="./images/youtube.png" alt="유튜브">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/BLACKPINKOFFICIAL/" title="인스타그램 바로가기" target="_blank">
+          <img src="./images/instagram.png" alt="인스타그램">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/BLACKPINKOFFICIAL" title="페이스북 바로가기" target="_blank">
+          <img src="./images/facebook.png" alt="페이스북">
+        </a></li>
+      <li>
+        <a href="https://twitter.com/BLACKPINK" title="트위터 바로가기" target="_blank">
+          <img src="./images/twitter.png" alt="트위터">
+        </a>
+      </li>
+      <li>
+        <a href="https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fwww.weibo.com%2Fygblackpinkofficial&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F115.0.0.0%20Safari%2F537.36&_rand=1691257055905&sudaref=" title="웨이보 바로가기" target="_blank">
+          <img src="./images/weibo.png" alt="웨이보">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.tiktok.com/@bp_tiktok" title="틱톡 바로가기" target="_blank">
+          <img src="./images/tiktok.png" alt="틱톡">
+        </a>
+      </li>
+    </ul>
+  </aside> 
+
+  
+  <!--  prefixfree 스크립트 소스 -->
+  <script src="./script/prefixfree.min.js"></script>
+
+  <!-- 제이쿼리 라이브러리 -->
+  <script src="./script/jquery-3.7.0.js"></script>
+  <!-- 제이쿼리 ui라이브러리 -->
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <!-- 제이쿼리 쿠키파일 -->
+  <script src="./script/jquery.cookie.js"></script>
+
+  <!-- 제이쿼리 공통 스크립트 -->
+  <script src="./script/layout.js"></script>
+  <!-- 제이쿼리 컨텐츠 스크립트 -->
+  <script src="./script/main.js"></script>
+  <!-- 스와이퍼 슬라이드 스크립트-->
+  <script src="./script/swiper.js"></script>
+
+  
+</body>
+</html>
